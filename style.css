@@ -36,7 +36,7 @@ nav ul li a {
 
 .reg-now {
     color: white;
-    padding: 12px;
+    padding: 12px 36px;
     background-color: #1d4ed8;
     font-weight: 700;
     border-radius: 10px;
@@ -89,3 +89,12 @@ nav ul li a {
     text-align: center;
 }
 
+.hero-reg-now {
+    color:white;
+    padding: 12px 48px;
+    background-color: #1d4ed8;
+    font-weight: 700;
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+}
