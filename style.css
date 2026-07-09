@@ -46,10 +46,20 @@ nav ul li a {
 
 .hero {
     background-image: url(./assets/banner.jpg);
+    background-size: cover;
+    background-position: center;
     height: 786px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position:relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0, 0.5);
 }
 
 .hero-content {
@@ -58,6 +68,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 .hero-content h2 {
