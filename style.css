@@ -6,24 +6,32 @@
     list-style: none;
 }
 
+/* Header Navigation Bar Style */
 header {
+    padding: 0px 60px;
+}
+header section {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    margin: 0px 20px;
     align-items: center;
-    padding: 0px 60px;
+    padding: 0px 40px;
     height: 98px;
 }
 
 nav ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
     align-items: center;
     height: 100%;
 }
 
+nav ul li a {
+    color: #575757;
+}
+
 .reg-nav-btn {
-    text-align: center;
+    text-align: right;
 }
 
 .reg-now {
