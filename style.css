@@ -44,6 +44,7 @@ nav ul li a {
     font-size: 16px;
 }
 
+/* Hero banner Section Style */
 .hero {
     background-image: url(./assets/banner.jpg);
     background-size: cover;
@@ -98,3 +99,5 @@ nav ul li a {
     border: none;
     font-size: 24px;
 }
+
+/* Meet the Speakers Section Style */
