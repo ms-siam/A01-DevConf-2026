@@ -43,3 +43,16 @@ nav ul li a {
     border: none;
     font-size: 16px;
 }
+
+.hero {
+    background-image: url(./assets/banner.jpg);
+    height: 786px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    color:white;
+}
