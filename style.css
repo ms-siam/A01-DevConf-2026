@@ -56,3 +56,12 @@ nav ul li a {
 .hero-content {
     color:white;
 }
+
+.hero-content h2 {
+    margin-bottom: 16px;
+}
+
+.hero-content p {
+    margin-bottom: 278px;
+}
+
