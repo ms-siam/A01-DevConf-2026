@@ -3,5 +3,25 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
 }
 
+header {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin: 0px 20px;
+    align-items: center;
+    padding: 0px 60px;
+    height: 98px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.reg-nav-btn {
+    text-align: center;
+}
