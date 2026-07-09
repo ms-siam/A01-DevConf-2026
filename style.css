@@ -48,20 +48,27 @@ nav ul li a {
     background-image: url(./assets/banner.jpg);
     height: 786px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
 .hero-content {
     color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content h2 {
     margin-bottom: 16px;
+    font-size: 80px;
 }
 
 .hero-content p {
     margin-bottom: 278px;
+    max-width: 700px;
+    font-size: 22px;
+    text-align: center;
 }
 
