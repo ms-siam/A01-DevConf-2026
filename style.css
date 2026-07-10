@@ -329,6 +329,17 @@ footer .container {
     align-items: center;
     gap: 0.5rem;
 }
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap:24px;
+}
+
+
+
+
+
 .venue {
     grid-area: venue;
 }
