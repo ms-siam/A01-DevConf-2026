@@ -289,21 +289,29 @@ li::marker {
   background-color: #f8f9fbff;
 }
 
-
 /* Footer Style */
 footer {
-        background-color:#0d1b2aFF;
-
+  background-color: #0d1b2aff;
 }
 
 footer .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem 3.5rem;
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffffff66;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 3.5rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff66;
 }
 
- 
+/*AI Challenge Section  */
+
+.ai-challenge .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1.5fr;
+  gap: 0.75rem;
+  grid-template-areas:
+    "sponsor sponsor"
+    "venue faq";
+}
