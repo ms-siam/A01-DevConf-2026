@@ -373,7 +373,11 @@ footer .container {
     width:36px;
 }
 
-
+.venue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 
 
