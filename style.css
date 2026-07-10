@@ -230,5 +230,17 @@ li::marker {
     padding: 20px 0;
     font-size: 14px;
     row-gap: 10px;
+    list-style-position: inside;
+}
+
+.pricing-btn {
+    padding: 11px 0;
+    width:100%;
+    font-size: 14px;
+    font-weight: 600;
+    color:#2563eb;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    background-color: white;
 }
 
