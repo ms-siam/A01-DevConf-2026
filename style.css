@@ -101,3 +101,18 @@ nav ul li a {
 }
 
 /* Meet the Speakers Section Style */
+.meet-speakers {
+    text-align: center;
+    margin: 0 3.47rem 2.69rem 3.47rem;
+}
+
+.meet-speakers h2 {
+    margin: 5rem 16.875rem 0;
+    font-size: 3.5rem;
+}
+
+.speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(460px, auto));
+    gap: 2rem;
+}
