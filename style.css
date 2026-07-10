@@ -279,3 +279,14 @@ li::marker {
   border-radius: 8px;
   background-color: #2563eb;
 }
+
+.team {
+  background-color: #f8f9fbFF;
+}
+
+.team .pricing-btn {
+  
+  color: #0d1b2aFF;
+  border: 1px solid #0d1b2aFF;
+  background-color: #f8f9fbFF;
+}
