@@ -229,6 +229,7 @@ li::marker {
     text-align: left;
     padding: 20px 0;
     font-size: 14px;
+    font-weight: 400;
     row-gap: 10px;
     list-style-position: inside;
 }
@@ -267,4 +268,8 @@ li::marker {
 
 .special-pricing-card .pricing-card-header {
     border-bottom: 1px solid #ffffff1A;
+}
+
+.special-pricing-card .feature-list {
+    color: #ffffffCC;
 }
