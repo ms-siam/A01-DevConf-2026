@@ -186,9 +186,10 @@ nav ul li a {
     
 }
 
-.pricing-card .special-pricing-card {
+.pricing-grid article {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
     padding: 2rem;
-
 }
 
 .pricing-card-header {
