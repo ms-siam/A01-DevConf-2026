@@ -312,6 +312,18 @@ footer .container {
   grid-template-rows: 1fr 1.5fr;
   gap: 0.75rem;
   grid-template-areas:
-    "sponsor sponsor"
+    "sponsors sponsors"
     "venue faq";
+}
+
+.sponsors {
+    grid-area: sponsors;
+}
+
+.venue {
+    grid-area: venue;
+}
+
+.faq {
+    grid-area: faq;
 }
