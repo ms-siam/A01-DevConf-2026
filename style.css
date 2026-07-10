@@ -316,75 +316,84 @@ footer .container {
 }
 
 .sponsors {
-    grid-area: sponsors;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  grid-area: sponsors;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .section-header {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .sponsor-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap:24px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 24px;
 }
 
 .logo {
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:36px;
-    width:96px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 96px;
 }
 
-
 .logo-ggl {
-    height:auto;
-    width:100%;
+  height: auto;
+  max-width: 100%;
 }
 
 .logo-aws {
-    height:24px;
-    width:36px;
+  height: 24px;
+  max-width: 100%;
 }
 .logo-ghub {
-    height:24px;
-    width:36px;
+  height: 24px;
+  max-width: 100%;
 }
 .logo-jb {
-    height:24px;
-    width:36px;
+  height: 24px;
+  width: 36px;
 }
 .logo-vrcl {
-    height:24px;
-    width:36px;
+  height: 24px;
+  width: 36px;
 }
 .logo-mdb {
-    height:24px;
-    width:36px;
+  height: 24px;
+  width: 36px;
 }
 
 .venue {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+.venue-content {
+  display: flex;
+  justify-content: space-between;
+}
 
+.venue-img img {
+  max-width: 100%;
+}
+.venue-info {
+  flex: 1;
+}
 
 .venue {
-    grid-area: venue;
+  grid-area: venue;
 }
 
 .faq {
-    grid-area: faq;
+  grid-area: faq;
 }
