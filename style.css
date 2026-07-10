@@ -253,3 +253,14 @@ li::marker {
     background-color: #0d1b2a;
 }
 
+.special-pricing-card .pricing-category {
+    color: #93c5fd;
+}
+
+.special-pricing-card .price {
+    color:white;
+}
+
+.special-pricing-card .limit {
+    color:#ffffff80;
+}
