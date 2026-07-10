@@ -131,3 +131,7 @@ nav ul li a {
     gap: 0.5rem;
 }
 
+.category {
+    font-size: 0.75rem;
+    color: #2563EB;
+}
