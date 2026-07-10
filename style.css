@@ -162,7 +162,6 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* align-items: stretch; */
   text-align: center;
   padding: 0px 60px 80px;
 }
@@ -235,7 +234,7 @@ li::marker {
   list-style-position: inside;
 }
 
-.pricing-btn {
+.pricing-grid .btn {
   padding: 11px 0;
   width: 100%;
   font-size: 14px;
@@ -253,27 +252,27 @@ li::marker {
   background-color: #0d1b2a;
 }
 
-.special-pricing-card.pricing-category {
+.featured .pricing-category {
   color: #93c5fd;
 }
 
-.special-pricing-card .price {
+.featured .price {
   color: white;
 }
 
-.special-pricing-card .limit {
+.featured .limit {
   color: #ffffff80;
 }
 
-.special-pricing-card .pricing-card-header {
+.featured .pricing-card-header {
   border-bottom: 1px solid #ffffff1a;
 }
 
-.special-pricing-card .feature-list {
+.featured .feature-list {
   color: #ffffffcc;
 }
 
-.special-pricing-card .pricing-btn {
+.btn.pro-btn {
   color: #ffffff;
   border: 1px solid #2563eb;
   border-radius: 8px;
@@ -284,7 +283,7 @@ li::marker {
   background-color: #f8f9fbff;
 }
 
-.team .pricing-btn {
+.btn.outline-btn {
   color: #0d1b2aff;
   border: 1px solid #0d1b2aff;
   background-color: #f8f9fbff;
