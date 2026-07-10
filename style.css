@@ -264,3 +264,7 @@ li::marker {
 .special-pricing-card .limit {
     color:#ffffff80;
 }
+
+.special-pricing-card .pricing-card-header {
+    border-bottom: 1px solid #ffffff1A;
+}
