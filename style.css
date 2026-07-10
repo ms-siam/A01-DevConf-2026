@@ -14,7 +14,7 @@
 
 /* Header Navigation Bar Style */
 
-header section {
+header .container {
   display: grid;
   grid-template-columns: 20% 60% 20%;
   align-items: center;
@@ -46,6 +46,7 @@ nav ul li a {
   border-radius: 10px;
   border: none;
   font-size: 16px;
+  cursor: pointer;
 }
 
 /* Hero banner Section Style */
@@ -94,13 +95,8 @@ nav ul li a {
   text-align: center;
 }
 
-.hero-reg-now {
-  color: white;
+.btn.hero-btn {
   padding: 12px 48px;
-  background-color: #1d4ed8;
-  font-weight: 700;
-  border-radius: 10px;
-  border: none;
   font-size: 24px;
 }
 
