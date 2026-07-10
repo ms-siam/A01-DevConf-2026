@@ -134,11 +134,13 @@ nav ul li a {
 .category {
     font-size: 0.75rem;
     color: #2563EB;
+    font-weight: 600;
 }
 
 .speaker-info h3 {
     font-size: 1.25rem;
     color: #0D1B2A;
+    font-weight: 700;
 }
 
 .company {
