@@ -309,7 +309,6 @@ footer .container {
 .ai-challenge .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1.5fr;
   gap: 0.75rem;
   grid-template-areas:
     "sponsors sponsors"
@@ -337,21 +336,43 @@ footer .container {
 }
 
 .logo {
-    padding: 24px;
+    padding: 12px;
     border: 1px solid #ddd;
     border-radius: 12px;
     display: flex;
     justify-content: center;
     align-items: center;
     height:36px;
+    width:96px;
 }
 
-.logo img {
-    max-width: 48px;
-    height:100%;
-    object-fit: contain;
-    /* display:block; */
+
+.logo-ggl {
+    height:auto;
+    width:100%;
 }
+
+.logo-aws {
+    height:24px;
+    width:36px;
+}
+.logo-ghub {
+    height:24px;
+    width:36px;
+}
+.logo-jb {
+    height:24px;
+    width:36px;
+}
+.logo-vrcl {
+    height:24px;
+    width:36px;
+}
+.logo-mdb {
+    height:24px;
+    width:36px;
+}
+
 
 
 
