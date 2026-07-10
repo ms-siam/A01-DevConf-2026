@@ -8,13 +8,12 @@
 
 /* Header Navigation Bar Style */
 header {
-    padding: 0px 60px;
+    padding: 0px 115px;
 }
 header section {
     display: grid;
     grid-template-columns: 20% 60% 20%;
     align-items: center;
-    padding: 0px 40px;
     height: 98px;
 }
 
@@ -163,6 +162,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: 0px 60px 80px;
 }
 
 .pricing-section-header h2 {
@@ -178,3 +178,8 @@ nav ul li a {
     color: #575757;
 }
 
+.pricing-grid {
+    display: flex;
+    padding-top: 3rem;
+    
+}
