@@ -196,3 +196,21 @@ nav ul li a {
     padding-bottom: 20px;
     border-bottom: 1px solid #e5e7ebFF;
 }
+
+.pricing-category {
+    color: #888888;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.price {
+    font-size: 44px;
+    font-weight: 700;
+    color: #0d1b2aFF;
+}
+
+.limit {
+    color: #888888;
+    font-weight: 400;
+    font-size: 13px;
+}
