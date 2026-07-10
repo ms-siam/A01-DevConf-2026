@@ -157,12 +157,13 @@ nav ul li a {
 /* Pricing Section Style Start */
 
 .pricing {
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0px 60px 80px;
+    padding: 0px 60px 80px;
 }
 
 .pricing-section-header h2 {
@@ -181,5 +182,11 @@ nav ul li a {
 .pricing-grid {
     display: flex;
     padding-top: 3rem;
+    gap: 1.5rem;
     
+}
+
+.pricing-card .special-pricing-card {
+    padding: 2rem;
+
 }
