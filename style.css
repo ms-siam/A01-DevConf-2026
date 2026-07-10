@@ -13,9 +13,7 @@
 }
 
 /* Header Navigation Bar Style */
-header {
-  padding: 0px 115px;
-}
+
 header section {
   display: grid;
   grid-template-columns: 20% 60% 20%;
@@ -40,7 +38,7 @@ nav ul li a {
   text-align: right;
 }
 
-.reg-now {
+.btn {
   color: white;
   padding: 12px 36px;
   background-color: #1d4ed8;
