@@ -104,18 +104,18 @@ nav ul li a {
 .meet-speakers {
     text-align: center;
     margin: 0 3.47rem 2.69rem 3.47rem;
+    padding: 5rem 3.75rem;
 }
 
 .meet-speakers h2 {
-    margin: 5rem 16.875rem 0;
     font-size: 3.5rem;
 }
 
 .speakers-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(460px, auto));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    margin: 3.75rem 3.75rem 8.5rem;
+    padding-top: 3.5rem;
 }
 
 .card {
@@ -154,3 +154,6 @@ nav ul li a {
     color:#575757;
     font-weight: 400;
 }
+
+/* Pricing Section Style Start */
+
