@@ -33,3 +33,8 @@ The section should be based on one or a combination of these ideas:
 You may combine them naturally if it creates a better user experience.
 
 Very important: Show the design in context, not as a standalone component. Include the section above it (Pricing section) and the footer below it, so it is easy to understand how the new section fits into the existing landing page and whether it matches the visual theme.
+
+
+## The Design ChatGPT Generated:
+
+![ChatGPT generated design for the ai-challenge section](./assets/ChatGPT%20Image%20Jul%2011,%202026,%2012_22_36%20AM.png)
