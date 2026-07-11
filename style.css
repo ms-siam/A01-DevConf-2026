@@ -320,6 +320,7 @@ footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f4f4f8;
 }
 
 .section-header {
@@ -335,7 +336,6 @@ footer .container {
   gap: 20px;
   padding: 32px;
   width: 100%;
-  background-color: #f4f4f8;
 }
 
 .logo-item {
@@ -360,6 +360,8 @@ footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 32px;
+  background-color: #f4f4f8;
 }
 
 .venue-content {
@@ -381,17 +383,17 @@ footer .container {
 }
 
 .venue-info p {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 .venue-features {
-    padding: 20px 10px;
-    list-style: none;
-    list-style-position: inside;
+  padding: 20px 10px;
+  list-style: none;
+  list-style-position: inside;
 }
-
-
 
 .faq {
   grid-area: faq;
+  padding: 32px;
+  background-color: #f4f4f8;
 }
