@@ -450,3 +450,14 @@ details[open] {
   border-color: #2563eb;
 }
 
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  color: #1e293b;
+  cursor: pointer;
+}
+
+
+
