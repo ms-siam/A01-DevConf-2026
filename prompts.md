@@ -38,3 +38,5 @@ Very important: Show the design in context, not as a standalone component. Inclu
 ## The Design ChatGPT Generated:
 
 ![ChatGPT generated design for the ai-challenge section](./assets/ChatGPT%20Image%20Jul%2011,%202026,%2012_22_36%20AM.png)
+
+## Ignored the Navbar design as it was out of the challenge or challenge requirement !
