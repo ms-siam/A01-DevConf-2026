@@ -444,3 +444,9 @@ details {
   transition: all 0.3s ease;
 }
 
+details[open] {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  border-color: #2563eb;
+}
+
