@@ -393,9 +393,8 @@ footer .container {
   border-radius: 10px;
 }
 .venue-info {
-    display: flex;
-    flex-direction: column;
-    
+  display: flex;
+  flex-direction: column;
 }
 
 .venue-info p {
@@ -404,7 +403,7 @@ footer .container {
 
 .venue-features {
   padding: 20px 10px 8px 0;
-  flex:1;
+  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -461,7 +460,10 @@ details[open] {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
   border-color: #2563eb;
 }
-
+details[open] i {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
 .question {
   display: flex;
   justify-content: space-between;
@@ -471,7 +473,9 @@ details[open] {
   cursor: pointer;
 }
 
-
-
-
-
+.answer {
+  margin-top: 12px;
+  color: #475569;
+  line-height: 1.6;
+  user-select: none;
+}
