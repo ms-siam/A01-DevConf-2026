@@ -494,3 +494,8 @@ footer .container {
     justify-content: space-between;
     align-items: center;
 }
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+}
