@@ -335,7 +335,7 @@ footer .container {
   gap: 20px;
   padding: 32px;
   width: 100%;
-  background-color: #f4f4f8; 
+  background-color: #f4f4f8;
 }
 
 .logo-item {
@@ -350,12 +350,13 @@ footer .container {
 }
 
 .logo-item img {
-  width: auto ;
-  height: auto ;
+  width: auto;
+  height: auto;
   max-height: 40px;
 }
 
 .venue {
+  grid-area: venue;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -363,18 +364,19 @@ footer .container {
 
 .venue-content {
   display: flex;
-  justify-content: space-between;
+  /* align-items: stretch; */
+  gap: 10px;
 }
 
-.venue-img img {
-  max-width: 100%;
-}
+.venue-img,
 .venue-info {
-  flex: 1;
+  flex: 1 1 50%;
 }
-
-.venue {
-  grid-area: venue;
+.venue-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .faq {
