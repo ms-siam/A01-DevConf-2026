@@ -289,21 +289,6 @@ li::marker {
   background-color: #f8f9fbff;
 }
 
-/* Footer Style */
-footer {
-  background-color: #0d1b2aff;
-}
-
-footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem 3.5rem;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ffffff66;
-}
-
 /*AI Challenge Section  */
 
 .ai-challenge .container {
@@ -488,3 +473,18 @@ details[open] i {
   user-select: none;
 }
 
+/* Footer Style */
+footer {
+  background-color: #0d1b2aff;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 3rem 3.5rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff66; */
+}
