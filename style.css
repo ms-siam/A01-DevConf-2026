@@ -329,47 +329,30 @@ footer .container {
   gap: 0.5rem;
 }
 
-.sponsor-grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 24px;
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 32px;
+  width: 100%;
+  background-color: #f4f4f8; 
 }
 
-.logo {
-  padding: 12px;
-  border: 1px solid #ddd;
+.logo-item {
+  flex: 1;
+  height: 60px;
+  background: #ffffff;
+  border: 1px solid #e5e5ea;
   border-radius: 12px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 36px;
-  width: 96px;
+  justify-content: center;
 }
 
-.logo-ggl {
-  height: auto;
-  max-width: 100%;
-}
-
-.logo-aws {
-  height: 24px;
-  max-width: 100%;
-}
-.logo-ghub {
-  height: 24px;
-  max-width: 100%;
-}
-.logo-jb {
-  height: 24px;
-  width: 36px;
-}
-.logo-vrcl {
-  height: 24px;
-  width: 36px;
-}
-.logo-mdb {
-  height: 24px;
-  width: 36px;
+.logo-item img {
+  width: auto ;
+  height: auto ;
+  max-height: 40px;
 }
 
 .venue {
