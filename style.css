@@ -234,7 +234,7 @@ li::marker {
   list-style-position: inside;
 }
 
-.pricing-grid .btn {
+.btn.secondary-btn {
   padding: 11px 0;
   width: 100%;
   font-size: 14px;
@@ -365,7 +365,7 @@ footer .container {
 .venue-content {
   display: flex;
   /* align-items: stretch; */
-  gap: 10px;
+  gap: 20px;
 }
 
 .venue-img,
@@ -377,7 +377,20 @@ footer .container {
   width: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 10px;
 }
+
+.venue-info p {
+    padding-right: 30px;
+}
+
+.venue-features {
+    padding: 20px 10px;
+    list-style: none;
+    list-style-position: inside;
+}
+
+
 
 .faq {
   grid-area: faq;
