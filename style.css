@@ -329,6 +329,19 @@ li::marker {
   gap: 0.5rem;
 }
 
+.section-header h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0d1b2aff;
+}
+
+.section-header p {
+  padding: 0 0 8px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #575757;
+}
+
 .logos {
   display: flex;
   flex-wrap: wrap;
