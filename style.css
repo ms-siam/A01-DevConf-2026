@@ -493,9 +493,15 @@ footer .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width:100%;
 }
 
 .socials {
     display: flex;
     justify-content: space-around;
+}
+
+.footer-divider {
+    width:100%;
+    margin-bottom: 1rem;
 }
