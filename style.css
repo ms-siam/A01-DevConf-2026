@@ -397,9 +397,13 @@ footer .container {
 }
 
 .venue-features {
-  padding: 20px 10px 20px 0;
+  padding: 20px 10px 8px 0;
   list-style: none;
   list-style-position: inside;
+}
+
+.venue-features li {
+    margin-bottom: 12px;
 }
 
 .faq {
