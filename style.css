@@ -375,7 +375,6 @@ footer .container {
 
 .venue-content {
   display: flex;
-  /* align-items: stretch; */
   gap: 20px;
   padding-top: 1rem;
 }
@@ -421,7 +420,7 @@ footer .container {
 }
 .faq {
   grid-area: faq;
-  padding: 32px;
+  padding: 1.5rem;
   background-color: #f4f4f8;
   border: 1px solid #e5e7eb;
   border-radius: 12px;
@@ -430,4 +429,8 @@ footer .container {
 .venue,
 .faq {
   margin-bottom: 1rem;
+}
+
+.faq-list {
+  padding-top: 1rem;
 }
