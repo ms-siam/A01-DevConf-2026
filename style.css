@@ -365,12 +365,19 @@ footer .container {
   align-items: center;
   padding: 32px;
   background-color: #f4f4f8;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.venue .section-header p {
+    color:#2563eb;
 }
 
 .venue-content {
   display: flex;
   /* align-items: stretch; */
   gap: 20px;
+  padding-top: 1rem;
 }
 
 .venue-img,
@@ -399,4 +406,8 @@ footer .container {
   grid-area: faq;
   padding: 32px;
   background-color: #f4f4f8;
+}
+
+.venue, .faq {
+    margin-bottom: 1rem;
 }
