@@ -406,6 +406,8 @@ footer .container {
   grid-area: faq;
   padding: 32px;
   background-color: #f4f4f8;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
 }
 
 .venue, .faq {
