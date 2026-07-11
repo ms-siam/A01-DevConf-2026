@@ -12,6 +12,7 @@
   padding-inline: 60px;
 }
 
+
 /* Header Navigation Bar Style */
 
 header .container {
@@ -47,6 +48,10 @@ nav ul li a {
   border: none;
   font-size: 16px;
   cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
 }
 
 /* Hero banner Section Style */
