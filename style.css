@@ -520,7 +520,11 @@ footer .container {
   width: 100%;
   padding: 1rem 0;
 }
-
+.footer-logo img {
+    display: block;
+    height: auto;
+    width: 220px;
+}
 .socials {
   display: flex;
   gap: 3rem;
