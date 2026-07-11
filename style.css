@@ -494,11 +494,12 @@ footer .container {
     justify-content: space-between;
     align-items: center;
     width:100%;
+    padding: 0 2rem 0 0;
 }
 
 .socials {
     display: flex;
-    justify-content: space-around;
+    gap:3rem;
 }
 
 .footer-divider {
