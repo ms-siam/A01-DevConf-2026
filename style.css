@@ -318,7 +318,7 @@ li::marker {
   gap: 0.5rem;
 }
 
-.logo {
+.logos {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
