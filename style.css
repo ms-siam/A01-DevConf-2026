@@ -370,7 +370,7 @@ footer .container {
 }
 
 .venue .section-header p {
-    color:#2563eb;
+  color: #2563eb;
 }
 
 .venue-content {
@@ -403,19 +403,22 @@ footer .container {
 }
 
 .venue-features li {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
+  color: #575757;
 }
 
 .venue-features li i {
-    font-size: 0.8rem;
-    padding: 3.3px;
-    width: 1.5rem;
-    color: #2563eb;
-    background-color: #e5e4e4;
-    border-radius: 4px;
-    text-align: center;
+  font-size: 0.8rem;
+  padding: 3.3px;
+  width: 1.5rem;
+  color: #2563eb;
+  background-color: #e5e4e4;
+  border-radius: 4px;
+  text-align: center;
 }
-
+.venue-info button {
+  background-color: #f4f4f8 !important;
+}
 .faq {
   grid-area: faq;
   padding: 32px;
@@ -424,6 +427,7 @@ footer .container {
   border-radius: 12px;
 }
 
-.venue, .faq {
-    margin-bottom: 1rem;
+.venue,
+.faq {
+  margin-bottom: 1rem;
 }
